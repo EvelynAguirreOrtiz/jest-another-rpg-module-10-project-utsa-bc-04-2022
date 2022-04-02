@@ -1,0 +1,22 @@
+{
+  "name": "jest-another-rpg-module-10-project-utsa-bc-04-2022",
+  "version": "1.0.0",
+  "description": "Module 10 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvelynAguirreOrtiz/jest-another-rpg-module-10-project-utsa-bc-04-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvelynAguirreOrtiz/jest-another-rpg-module-10-project-utsa-bc-04-2022/issues"
+  },
+  "homepage": "https://github.com/EvelynAguirreOrtiz/jest-another-rpg-module-10-project-utsa-bc-04-2022#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
