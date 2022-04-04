@@ -18,5 +18,8 @@
   "homepage": "https://github.com/EvelynAguirreOrtiz/jest-another-rpg-module-10-project-utsa-bc-04-2022#readme",
   "devDependencies": {
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.2"
   }
 }
