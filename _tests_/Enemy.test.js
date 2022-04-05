@@ -50,10 +50,10 @@ test('gets a description of the enemy', () => {
   expect(enemy.getDescription()).toEqual(expect.stringContaining('sword'));
 });
 
-// test("gets enemy's attack value", () => {
-//   const enemy = new Enemy('goblin', 'sword');
-//   enemy.strength = 10;
+test("gets enemy's attack value", () => {
+  const enemy = new Enemy('goblin', 'sword');
+  enemy.strength = 10;
 
-//   expect(enemy.getAttackValue()).toBeGreaterThanOrEqual(5);
-//   expect(enemy.getAttackValue()).toBeLessThanOrEqual(15);
-// });
+  expect(enemy.getAttackValue()).toBeGreaterThanOrEqual(5);
+  expect(enemy.getAttackValue()).toBeLessThanOrEqual(15);
+});
